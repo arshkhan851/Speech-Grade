@@ -1,0 +1,14 @@
+# Python 3.11 project dependencies; versions checked against PyPI on 2026-10-23.
+fastapi==0.161.0
+uvicorn==0.54.0
+SQLAlchemy==2.1.6
+pydantic==2.14.1
+python-multipart==0.0.32
+faster-whisper==1.2.1
+# faster-whisper 1.2.1 passes an argument removed by PyAV 19.
+av==18.1.0
+groq==1.7.0
+python-dotenv
+streamlit==1.66.1
+pydub==0.25.1
+librosa==1.0.0
